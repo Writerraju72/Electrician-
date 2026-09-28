@@ -1,0 +1,1 @@
+function toggleMenu(){document.getElementById('navMenu').classList.toggle('open')}document.querySelectorAll('#navMenu a').forEach(a=>a.addEventListener('click',()=>document.getElementById('navMenu').classList.remove('open')));document.getElementById('year').textContent=new Date().getFullYear();
